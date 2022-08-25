@@ -1,0 +1,130 @@
+* {
+  margin: 0px;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 80%;
+  height: 80%;
+  background-color: #1d2d44;
+
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+
+  box-shadow: 0px 0px 8px 1px #41ead4;
+
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin-left: 60px;
+}
+
+.links a {
+  height: 100px;
+  width: 100px;
+  font-size: 100px;
+  color: aliceblue;
+
+  margin-bottom: 100px;
+}
+
+.links a:visited {
+  color: aliceblue;
+}
+
+.container form {
+  margin-left: 24px;
+}
+
+.container h1 {
+  color: aliceblue;
+  font-size: 48px;
+  margin: 60px 0px 12px 20%;
+}
+
+.container b {
+  color: #41ead4;
+}
+
+.container p {
+  color: #dee2e6;
+  font-size: 24px;
+  margin: 0px 0px 12px 20%;
+
+  width: 600px;
+}
+
+.container img {
+  margin-top: 10%;
+  margin-left: 5%;
+}
+
+.in {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  margin: 24px 0px 12px 20%;
+}
+
+.in label {
+  color: #dee2e6;
+  margin: 12px 0px 12px 0px;
+  font-size: 18px;
+}
+
+.in input {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+
+  width: 300px;
+  height: 20px;
+
+  font-size: 16px;
+
+  margin-bottom: 24px;
+}
+
+.in textarea {
+  width: 400px;
+  height: 100px;
+  font-size: 16px;
+
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.in input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 2px 2px #41ead4;
+}
+
+.in button {
+  margin-top: 24px;
+  padding: 10px;
+  width: 200px;
+  height: 50px;
+
+  border: none;
+  border-radius: 10px;
+
+  background-color: #41ead4;
+  font-size: 16px;
+}
