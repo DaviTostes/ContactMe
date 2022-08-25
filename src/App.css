@@ -46,31 +46,29 @@
   color: aliceblue;
 }
 
-.container form {
-  margin-left: 24px;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  margin: 60px 0px 0px 60px;
 }
 
-.container h1 {
+.content h1 {
   color: aliceblue;
   font-size: 48px;
-  margin: 60px 0px 12px 20%;
 }
 
-.container b {
+.content b {
   color: #41ead4;
 }
 
-.container p {
+.content p {
   color: #dee2e6;
   font-size: 24px;
-  margin: 0px 0px 12px 20%;
+  margin-bottom: 12px;
 
   width: 600px;
-}
-
-.container img {
-  margin-top: 10%;
-  margin-left: 5%;
 }
 
 .in {
@@ -78,13 +76,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-
-  margin: 24px 0px 12px 20%;
 }
 
 .in label {
   color: #dee2e6;
-  margin: 12px 0px 12px 0px;
+  margin-top: 18px;
+  margin-bottom: 12px;
   font-size: 18px;
 }
 
